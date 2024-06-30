@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/CREADOR_SYSTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/CREADOR_SYSTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_LIBRE_SISTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/GRUPO_LIBRE_SISTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/CANAL_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/CANAL_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ### 𝐒𝐲𝐬𝐭𝐞𝐦 𝐁𝐨𝐭 𝐞𝐬 𝐮𝐧 𝐬𝐨𝐭𝐟𝐚𝐰𝐞𝐫 𝐝𝐞𝐥 𝐚𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐯𝐨 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩. 𝐃𝐞𝐬𝐝𝐞 𝐞𝐥 𝐦𝐨𝐦𝐞𝐧𝐭𝐨 𝐞𝐧 𝐪𝐮𝐞 𝐮𝐧 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐬𝐞 𝐮𝐧𝐞, 𝐥𝐞 𝐝𝐚 𝐮𝐧𝐚 𝐜á𝐥𝐢𝐝𝐚 𝐛𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐚 𝐲 𝐥𝐞 𝐞𝐱𝐩𝐥𝐢𝐜𝐚 𝐬𝐮𝐬 𝐜𝐚𝐩𝐚𝐜𝐢𝐝𝐚𝐝𝐞𝐬. 𝐈𝐦𝐚𝐠𝐢𝐧𝐚 𝐚 𝐒𝐲𝐬𝐭𝐞𝐦 𝐁𝐨𝐭 𝐜𝐨𝐦𝐨 𝐞𝐬𝐞 𝐚𝐦𝐢𝐠𝐨 𝐜𝐨𝐧𝐟𝐢𝐚𝐛𝐥𝐞 𝐪𝐮𝐞 𝐬𝐢𝐞𝐦𝐩𝐫𝐞 𝐞𝐬𝐭á 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐥𝐞 𝐩𝐚𝐫𝐚 𝐚𝐲𝐮𝐝𝐚𝐫.
@@ -79,27 +79,27 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/OWNER_PRINCIPAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/OWNER_PRINCIPAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/SOPORTE1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/SOPORTE2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/SOPORTE3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/SOPORTE4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/SOPORTE5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ### 𝐒𝐲𝐬𝐭𝐞𝐦 𝐁𝐨𝐭 𝐞𝐬 𝐦á𝐬 𝐪𝐮𝐞 𝐮𝐧 𝐬𝐢𝐦𝐩𝐥𝐞 𝐛𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩. 𝐄𝐬 𝐭𝐮 𝐜𝐨𝐦𝐩𝐚ñ𝐞𝐫𝐨 𝐝𝐢𝐠𝐢𝐭𝐚𝐥, 𝐥𝐢𝐬𝐭𝐨 𝐩𝐚𝐫𝐚 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐚𝐫 𝐥𝐚 𝐜𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐜𝐢ó𝐧 𝐲 𝐡𝐚𝐜𝐞𝐫 𝐥𝐚 𝐯𝐢𝐝𝐚 𝐦á𝐬 𝐬𝐞𝐧𝐜𝐢𝐥𝐥𝐚. ¡𝐃𝐢𝐬𝐟𝐫𝐮𝐭𝐚 𝐝𝐞 𝐭𝐮 𝐧𝐮𝐞𝐯𝐨 𝐚𝐬𝐢𝐬𝐭𝐞𝐧𝐭𝐞 𝐯𝐢𝐫𝐭𝐮𝐚𝐥!
