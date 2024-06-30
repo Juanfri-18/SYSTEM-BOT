@@ -2,7 +2,10 @@
 <img src="https://th.bing.com/th/id/OIG2.rNHuAZ.RP5bqEib_X_dj?pid=ImgGn" width="1000"/>
 </p>
 
-#### Version De Xia: 3.3.0 
+<p align="center">
+ SYSTEM BOT
+</p>
+
 
 #### Creador y Dueño: Angelito⚡
 
