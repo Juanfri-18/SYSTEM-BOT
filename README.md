@@ -35,6 +35,14 @@
 <a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/CANAL_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
+<p align="center">
+ 𝐒𝐓𝐀𝐅𝐅
+</p>
+
+<p align="center">
+OWNER <a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
 
 #### Creador y Dueño: Angelito⚡
 
