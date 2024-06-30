@@ -16,7 +16,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
       setTimeout(() => {
         conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       }, 1000);
-    } else if (!bot.restrict) return m.reply('[ ! ] Para realizar acciones de eliminación, mi dueño tiene que encender el modo restringido!');
+    } else if (!bot.restrict) return m.reply('❱❱ 𝐄𝐑𝐑𝐎𝐑 ❰❰ 𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐓𝐈𝐄𝐍𝐄 𝐑𝐄𝐒𝐓𝐑𝐈𝐍𝐆𝐈𝐃𝐎 𝐄𝐋 𝐔𝐒𝐎 𝐃𝐄𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐑𝐄𝐒𝐓𝐑𝐈𝐂𝐓.');
   }
   return true;
 }
