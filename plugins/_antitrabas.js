@@ -1,33 +1,23 @@
-//
-// By @NeKosmic || https://github.com/NeKosmic/
-//
-
-import * as fs from 'fs';
-
-export async function before(m, {conn, isAdmin, isBotAdmin, usedPrefix}) {
-  if (m.isBaileys && m.fromMe) {
-    return !0;
-  }
-  if (!m.isGroup) return !1;
+export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
+  if (m.isBaileys && m.fromMe) return true;
+  if (!m.isGroup) return false;
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[this.user.jid] || {};
-  const delet = m.key.participant;
-  const bang = m.key.id;
-  const name = await conn.getName(m.sender);
-  const fakemek = {'key': {'participant': '0@s.whatsapp.net', 'remoteJid': '0@s.whatsapp.net'}, 'message': {'groupInviteMessage': {'groupJid': '51995386439-1616969743@g.us', 'inviteCode': 'm', 'groupName': 'P', 'caption': '𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝', 'jpegThumbnail': null}}};
-  if (chat.antiTraba && m.text.length > 5000) { // Cantidad máxima de caracteres aceptados en un mensaje//
-    if (isAdmin) return conn.sendMessage(m.chat, {text: `El administrador @${m.sender.split('@')[0]} acaba de enviar un texto que contiene muchos caracteres -.-!`, mentions: [m.sender]}, {quoted: fakemek});
-    conn.sendMessage(m.chat, `*[ ! ] Se detecto un mensaje que contiene muchos caracteres [ ! ]*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, m);
-    // await conn.sendButton(m.chat, `*[ ! ] Se detecto un mensaje que contiene muchos caracteres [ ! ]*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, author, ['[ DESACTIVAR ANTI TRABAS ]', usedPrefix+'apagar antitraba'], fakemek )
+  const isToxic = m.text.length > 5000;
+
+  if (isToxic && chat.antiTraba && !isAdmin) {
+    if (isAdmin) return conn.sendMessage(m.chat, { text: `𝐔𝐍 𝐀𝐃𝐌𝐈𝐍 𝐃𝐄 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎 @${m.sender.split('@')[0]} 𝐀𝐇 𝐄𝐍𝐕𝐈𝐀𝐃𝐎 𝐔𝐍 𝐓𝐄𝐗𝐓𝐎 𝐂𝐎𝐍 𝐌𝐔𝐂𝐇𝐎𝐒 𝐂𝐀𝐑𝐀𝐂𝐓𝐄𝐑𝐄𝐒.`, mentions: [m.sender] });
+    conn.sendMessage(m.chat, `*❱❱ 𝐑𝐄𝐆𝐋𝐀𝐒 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 ❰❰ 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 𝐃𝐄𝐓𝐄𝐂𝐓𝐎 𝐐𝐔𝐄 𝐑𝐎𝐌𝐏𝐈𝐒𝐓𝐄 𝐋𝐀𝐒 𝐑𝐄𝐆𝐋𝐀𝐒.*\n`, `${isBotAdmin ? '' : '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 𝐍𝐎 𝐄𝐒 𝐔𝐍 𝐀𝐃𝐌𝐈𝐍 𝐃𝐄 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎.'}`, m);
     if (isBotAdmin && bot.restrict) {
-      conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
-        	setTimeout(() => {
-        	conn.sendMessage(m.chat, {text: `Marcar el chat como leido ✓\n${'\n'.repeat(400)}\n=> El número : wa.me/${m.sender.split('@')[0]}\n=> Alias : ${name}\n[ ! ] Acaba de enviar un texto que contiene muchos caracteres que puede ocasionar fallos en los dispositivos`, mentions: [m.sender]}, {quoted: fakemek});
+      conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant } });
+      setTimeout(() => {
+        conn.sendMessage(m.chat, { text: `𝐂𝐇𝐀𝐓 𝐋𝐄𝐈𝐃𝐎\n${'\n'.repeat(400)}\n=> 𝐄𝐋 𝐍𝐔𝐌𝐄𝐑𝐎 wa.me/${m.sender.split('@')[0]}\n=> 𝐀𝐋𝐈𝐀𝐒: ${await conn.getName(m.sender)}\n𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 𝐃𝐄𝐓𝐄𝐂𝐓𝐎 𝐐𝐔𝐄 𝐑𝐎𝐌𝐏𝐈𝐒𝐓𝐄 𝐋𝐀𝐒 𝐑𝐄𝐆𝐋𝐀𝐒.`, mentions: [m.sender] });
       }, 0);
       setTimeout(() => {
-        	conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+        conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       }, 1000);
     } else if (!bot.restrict) return m.reply('[ ! ] Para realizar acciones de eliminación, mi dueño tiene que encender el modo restringido!');
   }
-  return !0;
+  return true;
 }
+export default before;
