@@ -1,3 +1,4 @@
+<p align="center">
 ### 🔮 XIA BOT-MD 🔮
 <p align="center">
 <img src="https://th.bing.com/th/id/OIG2.rNHuAZ.RP5bqEib_X_dj?pid=ImgGn" alt="SystemBotOfc" width="900"/>
