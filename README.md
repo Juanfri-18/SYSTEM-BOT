@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
- SYSTEM BOT
+ 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎
 </p>
 
 
