@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
- **𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎**
+ 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎
 </p>
 
 <p align="center">
