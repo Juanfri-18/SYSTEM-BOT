@@ -43,6 +43,25 @@
 <a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/OWNER_PRINCIPAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
 
 #### Creador y Dueño: Angelito⚡
 
