@@ -10,6 +10,8 @@
 <a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/CREADOR_SYSTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
+ <a href="http://www.instagram.com/usxr_angelito" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
+
 <p align="center">
  𝐆𝐑𝐔𝐏𝐎 𝐋𝐈𝐁𝐑𝐄 𝐏𝐀𝐑𝐀 𝐔𝐒𝐀𝐑 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓
 </p>
