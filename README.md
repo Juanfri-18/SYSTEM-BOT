@@ -1,14 +1,14 @@
 <p align="center">
 SYSTEM BOT
 <p align="center">
-<img src="https://th.bing.com/th/id/OIG2.rNHuAZ.RP5bqEib_X_dj?pid=ImgGn" alt="SystemBotOfc" width="900"/>
+<img src="![Uploading logobot.jpeg…]()" alt="SystemBotOfc" width="900"/>
 </p>
 
 #### Version De Xia: 3.3.0 
 
 #### Creador y Dueño: Angelito⚡
 
-![Uploading logobot.jpeg…]()
+
 
 ### CONTACTOS 💻
 <p>
