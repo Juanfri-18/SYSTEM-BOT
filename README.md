@@ -1,6 +1,6 @@
 ### 🔮 XIA BOT-MD 🔮
 <p align="center">
-<img src="https://web.whatsapp.com/4f3c0b38-87c3-45cb-be7c-7f3f63288691" alt="SystemBotOfc" width="900"/>
+<img src="https://telegra.ph/SystemBotOfc-06-30" alt="SystemBotOfc" width="900"/>
 </p>
 
 #### Version De Xia: 3.3.0 
