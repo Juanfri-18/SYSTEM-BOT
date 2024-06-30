@@ -1,7 +1,7 @@
 {
-  "name": "XiaBot-Pro",
-  "version": "1.0.0",
-  "description": "Sígueme en ig: @usxr_angelito",
+  "name": "SystemBotOfc",
+  "version": "1.1.1",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/karim-off/XiaBot-Pro",
+  "homepage": "https://github.com/systembotofc",
   "author": {
-    "name": "Angelito"
+    "name": "Benjamin"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karim-off/XiaBot-Pro.git"
+    "url": "https://github.com/systembotofc"
   },
   "bugs": {
-    "url": "https://github.com/karim-off/XiaBot-Pro/issues"
+    "url": "https://github.com/systembotofc"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
@@ -36,7 +36,7 @@
     "@sasmeee/igdl": "npm:@sasmeee/igdl",
     "@shineiichijo/marika": "^2.0.6",
     "@vitalets/google-translate-api": "^8.0.0",
-    "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
+    "@whiskeysockets/baileys": "^6.7.2",
     "@xct007/frieren-scraper": "github:xct007/frieren-scraper#main",
     "acrcloud": "^1.4.0",
     "api-dylux": "^1.6.2",
