@@ -14,9 +14,9 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
       if (m.text.includes(linkThisGroup)) return true;
     }
     await this.sendMessage(m.chat, { text: `*❱❱ 𝐑𝐄𝐆𝐋𝐀𝐒 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 ❰❰*\n*𝐇𝐀𝐒𝐓𝐀 𝐋𝐀 𝐏𝐑𝐎𝐗𝐈𝐌𝐀 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 @${m.sender.split`@`[0]} 𝐑𝐎𝐌𝐏𝐈𝐒𝐓𝐄 𝐄𝐋 𝐑𝐄𝐆𝐋𝐀𝐌𝐄𝐍𝐓𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓, 𝐀𝐃𝐈𝐎𝐒.*`, mentions: [m.sender] }, { quoted: m });
-    if (!isBotAdmin) return m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙱𝙾𝚃 𝙽𝙾 𝙴𝚂 𝙰𝙳𝙼𝙸𝙽, 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚇𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝚁 𝙰 𝙻𝙰𝚂 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝚂*');
+    if (!isBotAdmin) return m.reply('*❱❱ 𝐄𝐑𝐑𝐎𝐑 ❰❰ 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 𝐍𝐎 𝐄𝐒 𝐀𝐃𝐌𝐈𝐍 𝐃𝐄 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎.*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant } });
       const response = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (response[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙽𝙾 𝚃𝙸𝙴𝙽𝙴 𝙷𝙰𝙱𝙸𝙻𝙸𝚃𝙰𝙳𝙾 𝙻𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲
+    } else if (!bot.restrict) return m.reply('*❱❱ 𝐄𝐑𝐑𝐎𝐑 ❰❰ 𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐓𝐈𝐄𝐍𝐄 𝐑𝐄𝐒𝐓𝐑𝐈𝐍𝐆𝐈𝐃𝐎 𝐄𝐋 𝐔𝐒𝐎 𝐃𝐄𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐑𝐄𝐒𝐓𝐑𝐈𝐂𝐓.
