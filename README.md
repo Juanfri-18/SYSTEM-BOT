@@ -74,7 +74,7 @@
 <a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
-#### 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈Ó𝐍 𝐏𝐎𝐑 𝐋𝐀 𝐏𝐋𝐀𝐓𝐀𝐅𝐎𝐑𝐌𝐀 𝐓𝐄𝐑𝐌𝐔𝐗 (POR EL MOMENTO NO ESTÁ DISPONIBLE)
+### 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈Ó𝐍 𝐏𝐎𝐑 𝐋𝐀 𝐏𝐋𝐀𝐓𝐀𝐅𝐎𝐑𝐌𝐀 𝐓𝐄𝐑𝐌𝐔𝐗 (𝐏𝐑𝐎𝐗𝐈𝐌𝐀𝐌𝐄𝐍𝐓𝐄 𝐃𝐈𝐒𝐏𝐎𝐍𝐈𝐁𝐋𝐄)
 ```bash
 
 ```
