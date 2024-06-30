@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/CREADOR_SYSTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
