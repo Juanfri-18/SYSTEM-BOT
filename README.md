@@ -11,14 +11,6 @@
 </p>
 
 <p align="center">
- 𝐆𝐑𝐔𝐏𝐎 𝐎𝐅𝐈𝐂𝐈𝐀𝐋
-</p>
-
-<p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
-<p align="center">
  𝐆𝐑𝐔𝐏𝐎 𝐋𝐈𝐁𝐑𝐄 𝐏𝐀𝐑𝐀 𝐔𝐒𝐀𝐑 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓
 </p>
 
@@ -26,6 +18,13 @@
 <a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_LIBRE_SISTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
+<p align="center">
+ 𝐆𝐑𝐔𝐏𝐎 𝐎𝐅𝐈𝐂𝐈𝐀𝐋
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
 
 <p align="center">
  𝐂𝐀𝐍𝐀𝐋 𝐎𝐅𝐈𝐂𝐈𝐀𝐋
