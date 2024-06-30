@@ -103,5 +103,4 @@
 ```
 
 ### 🔮 CREADOR 
-[![Karim-off](https://github.com/Karim-off.png?size=100)](https://github.com/Karim-off) 
-> Copyright (c) 2024 **[Karim-off](https://github.com/Karim-off/XiaBot-Pro/blob/master/LICENSE)**.
+[![SYSTEM BOT](https://th.bing.com/th/id/OIG2.rNHuAZ.RP5bqEib_X_dj?pid=ImgGn?size=100)](https://github.com/systembotofc/clientebot)
