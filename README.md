@@ -1,6 +1,6 @@
 ### 🔮 XIA BOT-MD 🔮
 <p align="center">
-<img src="" alt="XiaBot-MD" width="900"/>
+<img src="file:///C:/Users/Benjamin/Downloads/logobot.jpeg" alt="XiaBot-MD" width="900"/>
 </p>
 
 #### Version De Xia: 3.3.0 
