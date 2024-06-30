@@ -46,34 +46,6 @@
 - **𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐢𝐚 𝐈𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐯𝐚 Ú𝐧𝐢𝐜𝐚:** 𝐒𝐲𝐬𝐭𝐞𝐦 𝐁𝐨𝐭 𝐧𝐨 𝐬𝐨𝐥𝐨 𝐫𝐞𝐬𝐮𝐞𝐥𝐯𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚𝐬, 𝐬𝐢𝐧𝐨 𝐪𝐮𝐞 𝐭𝐚𝐦𝐛𝐢é𝐧 𝐜𝐫𝐞𝐚 𝐮𝐧𝐚 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐢𝐚 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐯𝐚 ú𝐧𝐢𝐜𝐚 𝐩𝐚𝐫𝐚 𝐥𝐨𝐬 𝐮𝐬𝐮𝐚𝐫𝐢𝐨𝐬.
 - **𝐒𝐨𝐩𝐨𝐫𝐭𝐞 𝐓é𝐜𝐧𝐢𝐜𝐨:** 𝐒𝐢𝐞𝐦𝐩𝐫𝐞 𝐞𝐬𝐭𝐚𝐦𝐨𝐬 𝐝𝐢𝐬𝐩𝐨𝐧𝐢𝐛𝐥𝐞𝐬 𝐩𝐚𝐫𝐚 𝐚𝐲𝐮𝐝𝐚𝐫𝐭𝐞 𝐜𝐨𝐧 𝐜𝐮𝐚𝐥𝐪𝐮𝐢𝐞𝐫 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚 𝐨 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐚 𝐫𝐞𝐥𝐚𝐜𝐢𝐨𝐧𝐚𝐝𝐚 𝐜𝐨𝐧 𝐒𝐲𝐬𝐭𝐞𝐦 𝐁𝐨𝐭. 𝐂𝐨𝐧𝐭á𝐜𝐭𝐚𝐧𝐨𝐬 𝐞𝐧 𝐜𝐮𝐚𝐥𝐪𝐮𝐢𝐞𝐫 𝐦𝐨𝐦𝐞𝐧𝐭𝐨.
 
-<p align="center">
- 𝐒𝐓𝐀𝐅𝐅
-</p>
-
-<p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/OWNER_PRINCIPAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
-<p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
-<p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
-<p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
-<p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
-<p align="center">
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
 ### 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈Ó𝐍 𝐏𝐎𝐑 𝐋𝐀 𝐏𝐋𝐀𝐓𝐀𝐅𝐎𝐑𝐌𝐀 𝐓𝐄𝐑𝐌𝐔𝐗 (𝐏𝐑𝐎𝐗𝐈𝐌𝐀𝐌𝐄𝐍𝐓𝐄 𝐃𝐈𝐒𝐏𝐎𝐍𝐈𝐁𝐋𝐄)
 ```bash
 
@@ -102,5 +74,32 @@
 
 ```
 
-### 🔮 CREADOR 
-[![SYSTEM BOT](https://th.bing.com/th/id/OIG2.rNHuAZ.RP5bqEib_X_dj?pid=ImgGn?size=10)](https://github.com/systembotofc/clientebot)
+<p align="center">
+ 𝐒𝐓𝐀𝐅𝐅
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/OWNER_PRINCIPAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+<p align="center">
+<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/SOPORTE5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+𝐒𝐲𝐬𝐭𝐞𝐦 𝐁𝐨𝐭 𝐞𝐬 𝐦á𝐬 𝐪𝐮𝐞 𝐮𝐧 𝐬𝐢𝐦𝐩𝐥𝐞 𝐛𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩. 𝐄𝐬 𝐭𝐮 𝐜𝐨𝐦𝐩𝐚ñ𝐞𝐫𝐨 𝐝𝐢𝐠𝐢𝐭𝐚𝐥, 𝐥𝐢𝐬𝐭𝐨 𝐩𝐚𝐫𝐚 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐚𝐫 𝐥𝐚 𝐜𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐜𝐢ó𝐧 𝐲 𝐡𝐚𝐜𝐞𝐫 𝐥𝐚 𝐯𝐢𝐝𝐚 𝐦á𝐬 𝐬𝐞𝐧𝐜𝐢𝐥𝐥𝐚. ¡𝐃𝐢𝐬𝐟𝐫𝐮𝐭𝐚 𝐝𝐞 𝐭𝐮 𝐧𝐮𝐞𝐯𝐨 𝐚𝐬𝐢𝐬𝐭𝐞𝐧𝐭𝐞 𝐯𝐢𝐫𝐭𝐮𝐚𝐥!
