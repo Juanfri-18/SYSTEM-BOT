@@ -103,4 +103,4 @@
 ```
 
 ### 🔮 CREADOR 
-[![SYSTEM BOT](https://th.bing.com/th/id/OIG2.rNHuAZ.RP5bqEib_X_dj?pid=ImgGn?size=100)](https://github.com/systembotofc/clientebot)
+[![SYSTEM BOT](https://th.bing.com/th/id/OIG2.rNHuAZ.RP5bqEib_X_dj?pid=ImgGn?size=10)](https://github.com/systembotofc/clientebot)
