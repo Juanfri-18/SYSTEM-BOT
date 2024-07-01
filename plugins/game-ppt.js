@@ -1,69 +1,73 @@
-const handler = async (m, {conn, text, command, usedPrefix, args}) => {
-// let pp = 'https://www.bighero6challenge.com/images/thumbs/Piedra,-papel-o-tijera-0003318_1584.jpeg'
-  const pp = 'https://telegra.ph/file/c7924bf0e0d839290cc51.jpg';
 
-  // 60000 = 1 minuto // 30000 = 30 segundos // 15000 = 15 segundos // 10000 = 10 segundos
-  const time = global.db.data.users[m.sender].wait + 10000;
-  if (new Date - global.db.data.users[m.sender].wait < 10000) throw `*🕓 Tendrás que esperar ${Math.floor((time - new Date()) / 1000)} segundos antes de poder volver a jugar*`;
+let poin = 200
+let cooldown = 15000
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+    
+    let reseqv = `✳️ ${mssg.ppt(usedPrefix, command)}`
+    if (!args[0]) throw reseqv
+    let text = args[0].toLowerCase()
+    let user = global.db.data.users[m.sender]
+    if (new Date - user.lastppt < cooldown) throw `⏱️ ${mssg.pptCd} *${msToTime((user.lastppt + cooldown) - new Date())}*`
+    if (user.coin < poin) return m.reply(`✳️ ${mssg.coinNan}`) 
+    var astro = Math.random()
+    
+    if (astro < 0.34) {
+        astro = `${mssg.stone}`
+    } else if (astro > 0.34 && astro < 0.67) {
+        astro = `${mssg.sciss}`
+    } else {
+        astro = `${mssg.paper}`
+    } 
+    
+    user.lastppt = new Date * 1
 
-  if (!args[0]) return conn.reply(m.chat, `*𝐏𝐢𝐞𝐝𝐫𝐚 🗿, 𝐏𝐚𝐩𝐞𝐥 📄 𝐨 𝐓𝐢𝐣𝐞𝐫𝐚 ✂️*\n\n*—◉ 𝚙𝚞𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚎𝚜𝚝𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜:*\n*◉ ${usedPrefix + command} piedra*\n*◉ ${usedPrefix + command} papel*\n*◉ ${usedPrefix + command} tijera*`, m);
-  // conn.sendButton(m.chat, `*𝐏𝐢𝐞𝐝𝐫𝐚 🗿, 𝐏𝐚𝐩𝐞𝐥 📄 𝐨 𝐓𝐢𝐣𝐞𝐫𝐚 ✂️*\n\n*—◉  𝙿𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚕𝚘𝚜 𝚋𝚘𝚝𝚘𝚗𝚎𝚜 𝚙𝚊𝚛𝚊 𝚓𝚞𝚐𝚊𝚛 𝚘 𝚝𝚊𝚖𝚋𝚒𝚎𝚗 𝚙𝚞𝚎𝚍𝚎𝚜 𝚞𝚜𝚊𝚛 𝚎𝚜𝚝𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜:*\n*◉ ${usedPrefix + command} piedra*\n*◉ ${usedPrefix + command} papel*\n*◉ ${usedPrefix + command} tijera*`, wm, pp, [['Piedra 🗿', `${usedPrefix + command} piedra`], ['Papel 📄', `${usedPrefix + command} papel`], ['Tijera ✂️', `${usedPrefix + command} tijera`]], m)
-  let astro = Math.random();
-  if (astro < 0.34) {
-    astro = 'piedra';
-  } else if (astro > 0.34 && astro < 0.67) {
-    astro = 'tijera';
-  } else {
-    astro = 'papel';
-  }
-  const textm = text.toLowerCase();
-  if (textm == astro) {
-    global.db.data.users[m.sender].exp += 500;
-    m.reply(`*🔰 Empate!*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +500 XP*`);
-  } else if (text == 'papel') {
-    if (astro == 'piedra') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +1000 XP*`);
+    if (text == astro) {
+      user.coin += 10
+        m.reply(`  ▢ 🪨  📄  ✂️\n\n‣ ${mssg.you} : ${text}\n‣ ${botName}: ${astro}\n\n🎁 ${mssg.tie} *+10 🪙*`)
+    } else if (text == `${mssg.stone}`) {
+        if (astro == `${mssg.sciss}`) {
+            user.coin += poin
+            m.reply(`  ▢ 🪨  📄  ✂️\n\n‣ ${mssg.you} : ${text}\n‣ ${botName}: ${astro}\n\n🎁 ${mssg.win} *+${poin} 🪙*`)
+        } else {
+          user.coin -= poin
+            m.reply(`  ▢ 🪨  📄  ✂️\n\n‣ ${mssg.you} : ${text}\n‣ ${botName}: ${astro}\n\n😔 ${mssg.lost} *-${poin} 🪙*`)
+        }
+    } else if (text == `${mssg.sciss}`) {
+        if (astro == `${mssg.paper}`) {
+            user.coin += poin
+            m.reply(`  ▢ 🪨  📄  ✂️\n\n‣ ${mssg.you} : ${text}\n‣ ${botName}: ${astro}\n\n🎁 ${mssg.win} *+${poin} 🪙*`)
+        } else {
+          user.coin -= poin
+            m.reply(`  ▢ 🪨  📄  ✂️\n\n‣ ${mssg.you} : ${text}\n‣ ${botName}: ${astro}\n\n😔 ${mssg.lost} *-${poin} 🪙*`)
+        }
+    } else if (text == `${mssg.paper}`) {
+        if (astro == `${mssg.stone}`) {
+            user.coin += poin
+            m.reply(`  ▢ 🪨  📄  ✂️\n\n‣ ${mssg.you} : ${text}\n‣ ${botName}: ${astro}\n\n🎁 ${mssg.win} *+${poin} 🪙*`)
+        } else {
+          user.coin -= poin
+            m.reply(`  ▢ 🪨  📄  ✂️\n\n‣ ${mssg.you} : ${text}\n‣ ${botName}: ${astro}\n\n😔 ${mssg.lost} *-${poin} 🪙*`)
+        }
     } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -300 XP*`);
+        throw reseqv
     }
-  } else if (text == 'tijera') {
-    if (astro == 'papel') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +1000 XP*`);
-    } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -300 XP*`);
-    }
-  } else if (textm == 'tijera') {
-    if (astro == 'papel') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +1000 XP*`);
-    } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -300 XP*`);
-    }
-  } else if (textm == 'papel') {
-    if (astro == 'piedra') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +1000 XP*`);
-    } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -300 XP*`);
-    }
-  } else if (textm == 'piedra') {
-    if (astro == 'tijera') {
-      global.db.data.users[m.sender].exp += 1000;
-      m.reply(`*🥳 Tú ganas! 🎉*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*🎁 Premio +1000 XP*`);
-    } else {
-      global.db.data.users[m.sender].exp -= 300;
-      m.reply(`*☠️ Tú pierdes! ❌*\n\n*👉🏻 Tu: ${textm}*\n*👉🏻 El Bot: ${astro}*\n*❌ Premio -300 XP*`);
-    }
-  }
-  global.db.data.users[m.sender].wait = new Date * 1;
-};
-handler.help = ['ppt'];
-handler.tags = ['games'];
-handler.command = /^(ppt)$/i;
-export default handler;
+}
+handler.help = ['ppt']
+handler.tags = ['game']
+handler.command = ['ppt'] 
+handler.register = false
+
+export default handler
+
+function msToTime(duration) {
+    var milliseconds = parseInt((duration % 1000) / 100),
+        seconds = Math.floor((duration / 1000) % 60),
+        minutes = Math.floor((duration / (1000 * 60)) % 60),
+        hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
+
+    hours = (hours < 10) ? "0" + hours : hours
+    minutes = (minutes < 10) ? "0" + minutes : minutes
+    seconds = (seconds < 10) ? "0" + seconds : seconds
+
+    return seconds + ` ${mssg.second}`
+}
