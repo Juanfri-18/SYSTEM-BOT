@@ -1,19 +1,23 @@
-const handler = async (m, {conn, isOwner}) => {
-  const chats = Object.entries(global.db.data.chats).filter((chat) => chat[1].isBanned);
-  const users = Object.entries(global.db.data.users).filter((user) => user[1].banned);
-  const caption = `
-┌〔 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐁𝐀𝐍𝐄𝐀𝐃𝐎𝐒 〕
-├ Total : ${users.length} ${users ? '\n' + users.map(([jid], i) => `
-├ ${isOwner ? '@' + jid.split`@`[0] : jid}`.trim()).join('\n') : '├'}
-└────
 
-┌〔 𝐂𝐇𝐀𝐓𝐒 𝐁𝐀𝐍𝐄𝐀𝐃𝐎𝐒 〕
-├ Total : ${chats.length} ${chats ? '\n' + chats.map(([jid], i) => `
-├ ${isOwner ? '@' + jid.split`@`[0] : jid}`.trim()).join('\n') : '├'}
-└────
-`.trim();
-  m.reply(caption, null, {mentions: conn.parseMention(caption)});
-};
-handler.command = /^banlist(ned)?|ban(ned)?list|daftarban(ned)?$/i;
-handler.rowner = true;
-export default handler;
+let handler = async (m, { conn, usedPrefix, isOwner }) => {
+    let chats = Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned)
+    let users = Object.entries(global.db.data.users).filter(user => user[1].banned)
+    
+    let te = `
+≡ *USUARIOS BANEADOS*
+
+▢ ${mssg.total} : *${users.length}* 
+
+${users ? '\n' + users.map(([jid], i) => `
+${i + 1}. ${conn.getName(jid) == undefined ? 'Desconocido' : conn.getName(jid)}
+${isOwner ? '@' + jid.split`@`[0] : jid}
+`.trim()).join('\n\n') : ''}
+`.trim()
+
+ conn.reply(m.chat, te, m, { mentions: await conn.parseMention(te)}) 
+}
+handler.help = ['listban']
+handler.tags = ['owner']
+handler.command = ['banlist', 'listban'] 
+
+export default handler
