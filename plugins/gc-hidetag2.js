@@ -36,7 +36,7 @@ const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
     }
   }
 };
-handler.command = /^(noti|tag|aviso|n)$/i;
+handler.command = /^(noti|tag|aviso|comunicar)$/i;
 handler.group = true;
 handler.admin = true;
 export default handler;
