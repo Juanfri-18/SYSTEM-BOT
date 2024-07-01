@@ -5,12 +5,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-const oi = `✉️ 𝙈𝙀𝙉𝙎𝘼𝙅𝙀: ${pesan}\n👤 𝙈𝙄𝙀𝙈𝘽𝙍𝙊𝙎: _*${participants.length}*_`;
-  let teks = `🔮 𝙓𝙄𝘼 𝘽𝙊𝙏 𝙇𝙊𝙎 𝙄𝙉𝙑𝙊𝘾𝘼\n\n ${oi}\n\n┏・🔮 𝙧𝙚𝙫𝙞𝙫𝙖𝙣 𝙘𝙪𝙚𝙧𝙣𝙪𝙙@𝙨 !\n`;
+const oi = `𝐂𝐀𝐍𝐀𝐋 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 𝐎𝐅𝐈𝐂𝐈𝐀𝐋\n https://whatsapp.com/channel/0029Vac3noUDTkJuOpfPTa39 ${pesan}\n👤 𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐈𝐍𝐓𝐄𝐆𝐑𝐀𝐍𝐓𝐄𝐒: _*${participants.length}*_`;
+  let teks = `❰❰ 𝐄𝐓𝐈𝐐𝐔𝐄𝐓𝐀 𝐆𝐄𝐍𝐄𝐑𝐀𝐋 ❱❱\n\n ${oi}\n\n┏・𝐃𝐄𝐒𝐏𝐈𝐄𝐑𝐓𝐄𝐍!!!\n`;
   for (const mem of participants) {
-    teks += `┣・🔮 @${mem.id.split('@')[0]}\n`;
+    teks += `┣・🚻 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `┗・ 𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮`;
+  teks += `┗・ 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓 𝐎𝐅𝐈𝐂𝐈𝐀𝐋`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
