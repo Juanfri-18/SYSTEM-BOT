@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/GRUPO_LIBRE_SISTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/DWJnzejkk4X5uPnTklp0FH" target="blank"><img src="https://img.shields.io/badge/GRUPO_LIBRE_SISTEM_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-<a href="https://chat.whatsapp.com/" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/JqDNBOivxLTBuZugmUu9Uo" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 <p align="center">
